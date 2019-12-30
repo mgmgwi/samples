@@ -1,0 +1,10 @@
+{
+  "name": "E Corp ID",
+  "version": "1.0",
+  "attrNames": [
+    "Name",
+		"Date of Birth"
+  ],
+  "supportRevocation": false,
+  "tag": "1"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Banking Verification",
+  "version": "1.0",
+  "requested_attributes": {
+    "name-proof": {
+      "name": "Name",
+      "non_revoked": {
+        "from": 0,
+        "to": 0
+      }
+    }
+  },
+  "requested_predicates": {
+    "birth-year-proof": {
+      "p_type": ">=",
+      "p_value": "1998",
+      "name": "Date of Birth"
+    }
+	}
+}
+
+
+{
+  "name": "Test Verification",
+  "version": "1.0",
+  "requested_attributes": {
+    "additionalProp1": {
+      "name": "Test",
+      "restrictions": [
+        {
+          "cred_def_id": "{{definitionId}}"
+        }
+      ]
+    }
+  }
+}
